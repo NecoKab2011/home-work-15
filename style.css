@@ -1,0 +1,49 @@
+.container {
+    width: 600px;
+    }
+  
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    outline: 1px solid red;
+  }
+  
+  .item {
+    border: 1px solid gray;
+    background-color: rgb(171, 7, 248);
+    width: 150px;
+    height: 60px;
+    
+    
+    
+  }
+  
+  .item:nth-child(1){
+    background-color:coral;
+order: -2;
+flex-grow: 2;
+  }
+
+  .item:nth-child(2){
+    background-color: skyblue;
+order: 1;
+  }
+
+  .item:nth-child(3){
+    background-color:blueviolet ;
+order: 0;
+
+  }
+
+  .item:nth-child(4){
+    background-color: green;
+order: 2;
+
+  }
+
+  .item:nth-child(5){
+    background-color:rgb(255, 183, 0);
+order: -1;
+flex-grow: 2;
+  }
